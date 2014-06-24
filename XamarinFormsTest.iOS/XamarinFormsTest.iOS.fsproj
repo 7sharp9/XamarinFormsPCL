@@ -58,8 +58,10 @@
     </IpaPackageName>
     <MtouchI18n>
     </MtouchI18n>
-    <MtouchArch>ARMv7</MtouchArch>
+    <MtouchArch>ARMv7s</MtouchArch>
     <MtouchExtraArgs>-vvv</MtouchExtraArgs>
+    <MtouchSdkVersion>7.1</MtouchSdkVersion>
+    <MtouchUseSGen>true</MtouchUseSGen>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
