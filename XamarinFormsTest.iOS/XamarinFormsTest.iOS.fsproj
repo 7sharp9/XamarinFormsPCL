@@ -59,6 +59,7 @@
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
+    <MtouchExtraArgs>-vvv</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -262,7 +263,7 @@
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.1\Framework\v4.0\Microsoft.FSharp.Targets" />
   <Import Project="..\packages\Xamarin.Forms.1.1.1.6206\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\XamarinFormsTest.FSharp\XamarinFormsTest.fsproj">
+    <ProjectReference Include="..\XamarinFormsTest\XamarinFormsTest.fsproj">
       <Project>{BD338223-281E-4D12-BE73-2F596AE602CC}</Project>
       <Name>XamarinFormsTest</Name>
     </ProjectReference>
